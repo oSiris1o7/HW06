@@ -1,0 +1,89 @@
+# Standard ignore list for Unreal Engine projects.
+# See https://docs.unrealengine.com/latest/en-US/Basics/SourceControl/
+# This list is based on the default .gitignore for new Unreal projects,
+# with some common additions.
+
+# Binaries, intermediates, and build products
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.tlog
+*.lastbuildstate
+*.obj
+*.pdb
+*.ipch
+*.log
+*.dat
+*.exp
+*.lib
+*.ncb
+*.aps
+*.bsc
+*.map
+*.res
+*.sbr
+*.pch
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.pgc
+*.pgi
+*.psym
+*.inc
+
+# DDC files (Derived Data Cache - platform-specific generated assets)
+# This is typically shared via network/shared drive, not source control
+DDC/
+
+# Backups and temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+*~
+*.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Editor specific
+Editor/
+Content/Developers/*/ # For personal temporary content, remove if you want to share
+# Example: Content/Developers/YourName/
+
+# Visual Studio specific
+*.vcxproj.user
+*.sln.user
+*.opensdf
+*.sdf
+
+# Rider specific
+.idea/
+
+# Linux specific
+*.o
+*.a
+*.so
+*.dll.text
+*.dll.data
+
+# Mac specific
+*.xcodeproj/
+*.xcworkspace/
+*.xccheckout/
+# Build products (e.g., from Xcode)
+build/
+DerivedData/
+
+# Crash reports
+CrashReportClient/
